@@ -274,10 +274,10 @@ img {
 
 
 
-                            /*WORK PAGE*/
+                            /*tour PAGE*/
 
 
-#content_work {
+#content_tour {
     display: flex;
     float: left;
     border: 20px solid #b4b7b8;
@@ -326,6 +326,7 @@ img {
     width: 33%;
     flex-direction: row;
     margin-top: 22px;
+    margin-right: 1px;
 }
 
 
@@ -338,12 +339,12 @@ img {
     width: 48%;
     margin-left: 30px;
     flex-direction: column;
+    border-left:1px solid #a3a3a3;
 }
 
 #project_info {
     display: flex;
     flex-wrap: wrap;
-    border-left:1px solid #a3a3a3;
     padding-left: 30px;
     flex-direction: column;
 }
@@ -379,7 +380,7 @@ img {
     margin-right: 10px;
 }
 
-#work_tags{
+#tour_tags{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -387,7 +388,7 @@ img {
     width: 100%;
     }
 
-#work_tags h2 {
+#tour_tags h2 {
     display: block;
     width: 100%;
 
@@ -401,7 +402,12 @@ img {
     padding: 12px 17px;
 }
 
-#work_tours_gallery {
+.tags:hover {
+    background-color: #a9a9a9;
+}
+
+
+#tour_tours_gallery {
     margin-top: 30px;
     padding-left: 30px;
     display: flex;
@@ -409,36 +415,47 @@ img {
     width: 100%;
 }
 
-#work_tours_gallery h2 {
+#tour_tours_gallery h2 {
     display: block;
     width: 100%;
     margin-bottom: 20px;
 }
 
-#work_tours_gallery img {
+#tour_tours_gallery img {
     max-height: 78px;
     max-width: 78px;
     margin: 0px 7px 7px 0px;
+    /*opacity: 0.5;*/
 }
 
-#work_project_features {
+#tour_tours_gallery img:hover {
+    opacity: 1;
+}
+
+.blurred_tour {
+    opacity: 0.4;
+}
+
+.active_tour {
+    opacity: 1!important;
+    transform: scale(1.05);
+}
+
+#tour_project_features {
     margin-top: 30px;
     padding-left: 30px;
     display: flex;
-    /*flex-wrap: wrap;*/
     flex-direction: column;
 }
 
-#work_project_features h2 {
+#tour_project_features h2 {
     display: block;
     width: 100%;
     margin-bottom: 20px;
 }
 
-#work_project_features li {
+#tour_project_features li {
     list-style-type: none;
     margin-bottom: 10px;
-    /*display: inline-block;*/
-    /*width: 95%;*/
 }
 

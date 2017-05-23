@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Find a place // Work</title>
+    <title>Find a place // tour</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/3fccf3ad94.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@
             <nav>
                 <ul>
                     <li class="nav-button"><a href="index.html">home</a></li>
-                    <li class="nav-button"><a href="work.html">work</a></li>
+                    <li class="nav-button"><a href="tour.html">tours</a></li>
                     <li class="nav-button"><a href="#">about</a></li>
                     <li class="nav-button"><a href="#">blog</a></li>
                     <li class="nav-button"><a href="#">services</a></li>
@@ -65,7 +65,9 @@
 
         </aside>
 
-        <div id="content_work">
+        <div id="content_tour">
+
+                        <!--LEFT BLOCK-->
 
             <section id="project_left_block">
 
@@ -93,6 +95,8 @@
                   </div>
             </section>
 
+
+                <!--RIGHT BLOCK-->
 
             <section id="project_right_block">
 
@@ -136,31 +140,41 @@
                         </div>
 
 
-                        <div id="work_tags">
+                        <!--<div id="tour_tags">
                             <h2>Tags</h2>
-                            <div class="tags">Travel</div>
-                            <div class="tags">Bike</div>
-                            <div class="tags">Seaside</div>
-                            <div class="tags">Mountains</div>
-                            <div class="tags">Hitchhiking</div>
+                            <div class="tags" data-filter="'.travel'">Travel</div>
+                            <div class="tags" data-filter="'.bike'">Bike</div>
+                            <div class="tags" data-filter="'.seaside'">Seaside</div>
+                            <div class="tags" data-filter="'.mountains'">Mountains</div>
+                            <div class="tags" data-filter="'.hiking'">Hiking</div>
+                        </div>-->
+
+                        <div id="tour_tags">
+                            <h2>Tags</h2>
+                            <div class="tags" data-filter="travel">Travel</div>
+                            <div class="tags" data-filter="bike">Bike</div>
+                            <div class="tags" data-filter="seaside">Seaside</div>
+                            <div class="tags" data-filter="mountains">Mountains</div>
+                            <div class="tags" data-filter="hiking">Hiking</div>
                         </div>
 
-                        <div id="work_tours_gallery">
+
+                        <div id="tour_tours_gallery">
                             <h2>Tours Gallery</h2>
-                            <img src="img/prg_gallery1.jpg" alt="">
-                            <img src="img/prg_gallery2.jpeg" alt="">
-                            <img src="img/prg_gallery3.png" alt="">
-                            <img src="img/prg_gallery4.jpg" alt="">
-                            <img src="img/prg_gallery5.jpg" alt="">
-                            <img src="img/prg_gallery6.jpg" alt="">
-                            <img src="img/prg_gallery7.jpg" alt="">
-                            <img src="img/prg_gallery8.jpg" alt="">
-                            <img src="img/prg_gallery9.jpg" alt="">
-                            <img src="img/prg_gallery10.jpg" alt="">
-                            <img src="img/prg_gallery11.jpg" alt="">
+                            <img src="img/prg_gallery1.jpg" alt="Seaside tour Carribean" class="seaside tour_gallery">
+                            <img src="img/prg_gallery2.jpeg" alt="Seaside tour Spain" class="seaside tour_gallery">
+                            <img src="img/prg_gallery3.png" alt="Mountains of Ural" class="mountains tour_gallery">
+                            <img src="img/prg_gallery4.jpg" alt="Brazil mountains" class="mountains tour_gallery">
+                            <img src="img/prg_gallery5.jpg" alt="Peru bike tour" class="bike tour_gallery">
+                            <img src="img/prg_gallery6.jpg" alt="Mexico hiking" class="hiking tour_gallery">
+                            <img src="img/prg_gallery7.jpg" alt="Peru bike tour" class="bike tour_gallery">
+                            <img src="img/prg_gallery8.jpg" alt="Peru bike tour" class="bike tour_gallery">
+                            <img src="img/prg_gallery9.jpg" alt="Portugal mountain tour" class="mountains tour_gallery">
+                            <img src="img/prg_gallery10.jpg" alt="Mexico hiking" class="hiking tour_gallery">
+                            <img src="img/prg_gallery11.jpg" alt="Mexico hiking" class="hiking tour_gallery">
                         </div>
 
-                        <div id="work_project_features">
+                        <div id="tour_project_features">
                             <h2>Tour features</h2>
                             <ul>
                                 <li><i class="fa fa-check" aria-hidden="true"></i>Unique trails</li>
@@ -174,7 +188,7 @@
             </section>
 
         </div>
-
+    <script src="index.js"></script>
     </div>
 </body>
 </html>
